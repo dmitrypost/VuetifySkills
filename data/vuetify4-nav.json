@@ -1,0 +1,1645 @@
+﻿{
+  "version": "4.0.5",
+  "docsBuild": "bf53f9e",
+  "capturedFrom": "https://vuetifyjs.com/en/getting-started/installation/",
+  "sections": {
+    "value": [
+      {
+        "section": "Introduction",
+        "links": [
+          {
+            "text": "Why Vuetify?",
+            "href": "https://vuetifyjs.com/en/introduction/why-vuetify/"
+          },
+          {
+            "text": "Long-term support",
+            "href": "https://vuetifyjs.com/en/introduction/long-term-support/"
+          },
+          {
+            "text": "Roadmap",
+            "href": "https://vuetifyjs.com/en/introduction/roadmap/"
+          },
+          {
+            "text": "Sponsors and backers",
+            "href": "https://vuetifyjs.com/en/introduction/sponsors-and-backers/"
+          },
+          {
+            "text": "For Enterprise",
+            "href": "https://vuetifyjs.com/en/introduction/enterprise-support/"
+          }
+        ]
+      },
+      {
+        "section": "Getting started",
+        "links": [
+          {
+            "text": "Installation",
+            "href": "https://vuetifyjs.com/en/getting-started/installation/"
+          },
+          {
+            "text": "Frequently asked questions",
+            "href": "https://vuetifyjs.com/en/getting-started/frequently-asked-questions/"
+          },
+          {
+            "text": "Wireframes",
+            "href": "https://vuetifyjs.com/en/getting-started/wireframes/"
+          },
+          {
+            "text": "Unit testing",
+            "href": "https://vuetifyjs.com/en/getting-started/unit-testing/"
+          },
+          {
+            "text": "Browser support",
+            "href": "https://vuetifyjs.com/en/getting-started/browser-support/"
+          },
+          {
+            "text": "Upgrade guide",
+            "href": "https://vuetifyjs.com/en/getting-started/upgrade-guide/"
+          },
+          {
+            "text": "Release notes",
+            "href": "https://vuetifyjs.com/en/getting-started/release-notes/"
+          },
+          {
+            "text": "Contributing",
+            "href": "https://vuetifyjs.com/en/getting-started/contributing/"
+          }
+        ]
+      },
+      {
+        "section": "Features",
+        "links": [
+          {
+            "text": "Accessibility (a11y)",
+            "href": "https://vuetifyjs.com/en/features/accessibility/"
+          },
+          {
+            "text": "Aliasing",
+            "href": "https://vuetifyjs.com/en/features/aliasing/"
+          },
+          {
+            "text": "Application layout",
+            "href": "https://vuetifyjs.com/en/features/application-layout/"
+          },
+          {
+            "text": "Blueprints",
+            "href": "https://vuetifyjs.com/en/features/blueprints/"
+          },
+          {
+            "text": "Overview",
+            "href": "https://vuetifyjs.com/en/features/css-utilities/overview/"
+          },
+          {
+            "text": "UnoCSS + Vuetify preset",
+            "href": "https://vuetifyjs.com/en/features/css-utilities/unocss-vuetify-preset/"
+          },
+          {
+            "text": "UnoCSS + presetWind4",
+            "href": "https://vuetifyjs.com/en/features/css-utilities/unocss-tailwind-preset/"
+          },
+          {
+            "text": "TailwindCSS",
+            "href": "https://vuetifyjs.com/en/features/css-utilities/tailwindcss/"
+          },
+          {
+            "text": "Dates",
+            "href": "https://vuetifyjs.com/en/features/dates/"
+          },
+          {
+            "text": "Display \u0026 Platform",
+            "href": "https://vuetifyjs.com/en/features/display-and-platform/"
+          },
+          {
+            "text": "Global configuration",
+            "href": "https://vuetifyjs.com/en/features/global-configuration/"
+          },
+          {
+            "text": "Hotkeys",
+            "href": "https://vuetifyjs.com/en/features/hotkey/"
+          },
+          {
+            "text": "Icon Fonts",
+            "href": "https://vuetifyjs.com/en/features/icon-fonts/"
+          },
+          {
+            "text": "Internationalization (i18n)",
+            "href": "https://vuetifyjs.com/en/features/internationalization/"
+          },
+          {
+            "text": "Programmatic scrolling",
+            "href": "https://vuetifyjs.com/en/features/scrolling/"
+          },
+          {
+            "text": "SASS variables",
+            "href": "https://vuetifyjs.com/en/features/sass-variables/"
+          },
+          {
+            "text": "Theme",
+            "href": "https://vuetifyjs.com/en/features/theme/"
+          },
+          {
+            "text": "Treeshaking",
+            "href": "https://vuetifyjs.com/en/features/treeshaking/"
+          }
+        ]
+      },
+      {
+        "section": "Styles and animations",
+        "links": [
+          {
+            "text": "Entry points",
+            "href": "https://vuetifyjs.com/en/styles/entry-points/"
+          },
+          {
+            "text": "CSS Reset",
+            "href": "https://vuetifyjs.com/en/styles/css-reset/"
+          },
+          {
+            "text": "CSS Layers",
+            "href": "https://vuetifyjs.com/en/styles/layers/"
+          },
+          {
+            "text": "Transitions",
+            "href": "https://vuetifyjs.com/en/styles/transitions/"
+          },
+          {
+            "text": "Material color palette",
+            "href": "https://vuetifyjs.com/en/styles/colors/"
+          },
+          {
+            "text": "Borders",
+            "href": "https://vuetifyjs.com/en/styles/borders/"
+          },
+          {
+            "text": "Border radius",
+            "href": "https://vuetifyjs.com/en/styles/border-radius/"
+          },
+          {
+            "text": "Content",
+            "href": "https://vuetifyjs.com/en/styles/content/"
+          },
+          {
+            "text": "Cursor",
+            "href": "https://vuetifyjs.com/en/styles/cursor/"
+          },
+          {
+            "text": "Display",
+            "href": "https://vuetifyjs.com/en/styles/display/"
+          },
+          {
+            "text": "Elevation",
+            "href": "https://vuetifyjs.com/en/styles/elevation/"
+          },
+          {
+            "text": "Flex",
+            "href": "https://vuetifyjs.com/en/styles/flex/"
+          },
+          {
+            "text": "Float",
+            "href": "https://vuetifyjs.com/en/styles/float/"
+          },
+          {
+            "text": "Opacity",
+            "href": "https://vuetifyjs.com/en/styles/opacity/"
+          },
+          {
+            "text": "Overflow",
+            "href": "https://vuetifyjs.com/en/styles/overflow/"
+          },
+          {
+            "text": "Position",
+            "href": "https://vuetifyjs.com/en/styles/position/"
+          },
+          {
+            "text": "Sizing",
+            "href": "https://vuetifyjs.com/en/styles/sizing/"
+          },
+          {
+            "text": "Spacing",
+            "href": "https://vuetifyjs.com/en/styles/spacing/"
+          },
+          {
+            "text": "Text and typography",
+            "href": "https://vuetifyjs.com/en/styles/text-and-typography/"
+          }
+        ]
+      },
+      {
+        "section": "Common concepts",
+        "links": [
+          {
+            "text": "Density and sizing",
+            "href": "https://vuetifyjs.com/en/concepts/density-and-sizing/"
+          },
+          {
+            "text": "Items",
+            "href": "https://vuetifyjs.com/en/concepts/items/"
+          },
+          {
+            "text": "Routing",
+            "href": "https://vuetifyjs.com/en/concepts/routing/"
+          },
+          {
+            "text": "v-model",
+            "href": "https://vuetifyjs.com/en/concepts/v-model/"
+          },
+          {
+            "text": "Variants",
+            "href": "https://vuetifyjs.com/en/concepts/variants/"
+          }
+        ]
+      },
+      {
+        "section": "Components",
+        "links": [
+          {
+            "text": "All Components",
+            "href": "https://vuetifyjs.com/en/components/all/"
+          },
+          {
+            "text": "API Explorer Browse Components",
+            "href": "https://vuetifyjs.com/en/components/explorer/"
+          },
+          {
+            "text": "Application",
+            "href": "https://vuetifyjs.com/en/components/application/"
+          },
+          {
+            "text": "Bottom sheets",
+            "href": "https://vuetifyjs.com/en/components/bottom-sheets/"
+          },
+          {
+            "text": "Buttons",
+            "href": "https://vuetifyjs.com/en/components/buttons/"
+          },
+          {
+            "text": "Cards",
+            "href": "https://vuetifyjs.com/en/components/cards/"
+          },
+          {
+            "text": "Chips",
+            "href": "https://vuetifyjs.com/en/components/chips/"
+          },
+          {
+            "text": "Dialogs",
+            "href": "https://vuetifyjs.com/en/components/dialogs/"
+          },
+          {
+            "text": "Dividers",
+            "href": "https://vuetifyjs.com/en/components/dividers/"
+          },
+          {
+            "text": "Expansion panels",
+            "href": "https://vuetifyjs.com/en/components/expansion-panels/"
+          },
+          {
+            "text": "Lists",
+            "href": "https://vuetifyjs.com/en/components/lists/"
+          },
+          {
+            "text": "Menus",
+            "href": "https://vuetifyjs.com/en/components/menus/"
+          },
+          {
+            "text": "Overlays",
+            "href": "https://vuetifyjs.com/en/components/overlays/"
+          },
+          {
+            "text": "Sheets",
+            "href": "https://vuetifyjs.com/en/components/sheets/"
+          },
+          {
+            "text": "Toolbars",
+            "href": "https://vuetifyjs.com/en/components/toolbars/"
+          },
+          {
+            "text": "Tooltips",
+            "href": "https://vuetifyjs.com/en/components/tooltips/"
+          },
+          {
+            "text": "App bars",
+            "href": "https://vuetifyjs.com/en/components/app-bars/"
+          },
+          {
+            "text": "Bottom navigation",
+            "href": "https://vuetifyjs.com/en/components/bottom-navigation/"
+          },
+          {
+            "text": "Breadcrumbs",
+            "href": "https://vuetifyjs.com/en/components/breadcrumbs/"
+          },
+          {
+            "text": "Floating Action Buttons",
+            "href": "https://vuetifyjs.com/en/components/floating-action-buttons/"
+          },
+          {
+            "text": "Footers",
+            "href": "https://vuetifyjs.com/en/components/footers/"
+          },
+          {
+            "text": "Navigation drawers",
+            "href": "https://vuetifyjs.com/en/components/navigation-drawers/"
+          },
+          {
+            "text": "Pagination",
+            "href": "https://vuetifyjs.com/en/components/paginations/"
+          },
+          {
+            "text": "Speed Dials",
+            "href": "https://vuetifyjs.com/en/components/speed-dials/"
+          },
+          {
+            "text": "System bars",
+            "href": "https://vuetifyjs.com/en/components/system-bars/"
+          },
+          {
+            "text": "Tabs",
+            "href": "https://vuetifyjs.com/en/components/tabs/"
+          },
+          {
+            "text": "Autocompletes",
+            "href": "https://vuetifyjs.com/en/components/autocompletes/"
+          },
+          {
+            "text": "Checkboxes",
+            "href": "https://vuetifyjs.com/en/components/checkboxes/"
+          },
+          {
+            "text": "Combobox",
+            "href": "https://vuetifyjs.com/en/components/combobox/"
+          },
+          {
+            "text": "File inputs",
+            "href": "https://vuetifyjs.com/en/components/file-inputs/"
+          },
+          {
+            "text": "Forms",
+            "href": "https://vuetifyjs.com/en/components/forms/"
+          },
+          {
+            "text": "Custom inputs",
+            "href": "https://vuetifyjs.com/en/components/inputs/"
+          },
+          {
+            "text": "Number inputs",
+            "href": "https://vuetifyjs.com/en/components/number-inputs/"
+          },
+          {
+            "text": "OTP Input",
+            "href": "https://vuetifyjs.com/en/components/otp-input/"
+          },
+          {
+            "text": "Radio buttons",
+            "href": "https://vuetifyjs.com/en/components/radio-buttons/"
+          },
+          {
+            "text": "Range sliders",
+            "href": "https://vuetifyjs.com/en/components/range-sliders/"
+          },
+          {
+            "text": "Selects",
+            "href": "https://vuetifyjs.com/en/components/selects/"
+          },
+          {
+            "text": "Sliders",
+            "href": "https://vuetifyjs.com/en/components/sliders/"
+          },
+          {
+            "text": "Switches",
+            "href": "https://vuetifyjs.com/en/components/switches/"
+          },
+          {
+            "text": "Text fields",
+            "href": "https://vuetifyjs.com/en/components/text-fields/"
+          },
+          {
+            "text": "Textareas",
+            "href": "https://vuetifyjs.com/en/components/textareas/"
+          },
+          {
+            "text": "Calendars",
+            "href": "https://vuetifyjs.com/en/components/calendars/"
+          },
+          {
+            "text": "Confirm Edit",
+            "href": "https://vuetifyjs.com/en/components/confirm-edit/"
+          },
+          {
+            "text": "Data iterators",
+            "href": "https://vuetifyjs.com/en/components/data-iterators/"
+          },
+          {
+            "text": "Introduction",
+            "href": "https://vuetifyjs.com/en/components/data-tables/introduction/"
+          },
+          {
+            "text": "Basics",
+            "href": "https://vuetifyjs.com/en/components/data-tables/basics/"
+          },
+          {
+            "text": "Data and Display",
+            "href": "https://vuetifyjs.com/en/components/data-tables/data-and-display/"
+          },
+          {
+            "text": "Server side tables",
+            "href": "https://vuetifyjs.com/en/components/data-tables/server-side-tables/"
+          },
+          {
+            "text": "Virtual tables",
+            "href": "https://vuetifyjs.com/en/components/data-tables/virtual-tables/"
+          },
+          {
+            "text": "Hotkeys",
+            "href": "https://vuetifyjs.com/en/components/hotkeys/"
+          },
+          {
+            "text": "Sparklines",
+            "href": "https://vuetifyjs.com/en/components/sparklines/"
+          },
+          {
+            "text": "Infinite scrollers",
+            "href": "https://vuetifyjs.com/en/components/infinite-scroller/"
+          },
+          {
+            "text": "Tables",
+            "href": "https://vuetifyjs.com/en/components/tables/"
+          },
+          {
+            "text": "Treeview",
+            "href": "https://vuetifyjs.com/en/components/treeview/"
+          },
+          {
+            "text": "Virtual scrollers",
+            "href": "https://vuetifyjs.com/en/components/virtual-scroller/"
+          },
+          {
+            "text": "Grids",
+            "href": "https://vuetifyjs.com/en/components/grids/"
+          },
+          {
+            "text": "Button toggles",
+            "href": "https://vuetifyjs.com/en/components/button-groups/"
+          },
+          {
+            "text": "Carousels",
+            "href": "https://vuetifyjs.com/en/components/carousels/"
+          },
+          {
+            "text": "Chip groups",
+            "href": "https://vuetifyjs.com/en/components/chip-groups/"
+          },
+          {
+            "text": "Item groups",
+            "href": "https://vuetifyjs.com/en/components/item-groups/"
+          },
+          {
+            "text": "Slide groups",
+            "href": "https://vuetifyjs.com/en/components/slide-groups/"
+          },
+          {
+            "text": "Steppers",
+            "href": "https://vuetifyjs.com/en/components/steppers/"
+          },
+          {
+            "text": "Windows",
+            "href": "https://vuetifyjs.com/en/components/windows/"
+          },
+          {
+            "text": "Alerts",
+            "href": "https://vuetifyjs.com/en/components/alerts/"
+          },
+          {
+            "text": "Badges",
+            "href": "https://vuetifyjs.com/en/components/badges/"
+          },
+          {
+            "text": "Banners",
+            "href": "https://vuetifyjs.com/en/components/banners/"
+          },
+          {
+            "text": "Empty states",
+            "href": "https://vuetifyjs.com/en/components/empty-states/"
+          },
+          {
+            "text": "Hover",
+            "href": "https://vuetifyjs.com/en/components/hover/"
+          },
+          {
+            "text": "Progress circular",
+            "href": "https://vuetifyjs.com/en/components/progress-circular/"
+          },
+          {
+            "text": "Progress linear",
+            "href": "https://vuetifyjs.com/en/components/progress-linear/"
+          },
+          {
+            "text": "Ratings",
+            "href": "https://vuetifyjs.com/en/components/ratings/"
+          },
+          {
+            "text": "Skeleton loaders",
+            "href": "https://vuetifyjs.com/en/components/skeleton-loaders/"
+          },
+          {
+            "text": "Snackbars",
+            "href": "https://vuetifyjs.com/en/components/snackbars/"
+          },
+          {
+            "text": "Snackbar Queue",
+            "href": "https://vuetifyjs.com/en/components/snackbar-queue/"
+          },
+          {
+            "text": "Timelines",
+            "href": "https://vuetifyjs.com/en/components/timelines/"
+          },
+          {
+            "text": "Aspect ratios",
+            "href": "https://vuetifyjs.com/en/components/aspect-ratios/"
+          },
+          {
+            "text": "Avatars",
+            "href": "https://vuetifyjs.com/en/components/avatars/"
+          },
+          {
+            "text": "Icons",
+            "href": "https://vuetifyjs.com/en/components/icons/"
+          },
+          {
+            "text": "Images",
+            "href": "https://vuetifyjs.com/en/components/images/"
+          },
+          {
+            "text": "Parallax",
+            "href": "https://vuetifyjs.com/en/components/parallax/"
+          },
+          {
+            "text": "Color pickers",
+            "href": "https://vuetifyjs.com/en/components/color-pickers/"
+          },
+          {
+            "text": "Date pickers",
+            "href": "https://vuetifyjs.com/en/components/date-pickers/"
+          },
+          {
+            "text": "Time pickers",
+            "href": "https://vuetifyjs.com/en/components/time-pickers/"
+          },
+          {
+            "text": "Defaults providers",
+            "href": "https://vuetifyjs.com/en/components/defaults-providers/"
+          },
+          {
+            "text": "Locale providers",
+            "href": "https://vuetifyjs.com/en/components/locale-providers/"
+          },
+          {
+            "text": "Theme providers",
+            "href": "https://vuetifyjs.com/en/components/theme-providers/"
+          },
+          {
+            "text": "Lazy",
+            "href": "https://vuetifyjs.com/en/components/lazy/"
+          },
+          {
+            "text": "No SSR",
+            "href": "https://vuetifyjs.com/en/components/no-ssr/"
+          }
+        ]
+      },
+      {
+        "section": "API",
+        "links": [
+          {
+            "text": "globals",
+            "href": "https://vuetifyjs.com/en/api/globals"
+          },
+          {
+            "text": "useDate",
+            "href": "https://vuetifyjs.com/en/api/use-date"
+          },
+          {
+            "text": "useDefaults",
+            "href": "https://vuetifyjs.com/en/api/use-defaults"
+          },
+          {
+            "text": "useDisplay",
+            "href": "https://vuetifyjs.com/en/api/use-display"
+          },
+          {
+            "text": "useGoTo",
+            "href": "https://vuetifyjs.com/en/api/use-go-to"
+          },
+          {
+            "text": "useHotkey",
+            "href": "https://vuetifyjs.com/en/api/use-hotkey"
+          },
+          {
+            "text": "useLayout",
+            "href": "https://vuetifyjs.com/en/api/use-layout"
+          },
+          {
+            "text": "useLocale",
+            "href": "https://vuetifyjs.com/en/api/use-locale"
+          },
+          {
+            "text": "useMask",
+            "href": "https://vuetifyjs.com/en/api/use-mask"
+          },
+          {
+            "text": "useRtl",
+            "href": "https://vuetifyjs.com/en/api/use-rtl"
+          },
+          {
+            "text": "useTheme",
+            "href": "https://vuetifyjs.com/en/api/use-theme"
+          },
+          {
+            "text": "v-click-outside",
+            "href": "https://vuetifyjs.com/en/api/v-click-outside-directive"
+          },
+          {
+            "text": "v-intersect",
+            "href": "https://vuetifyjs.com/en/api/v-intersect-directive"
+          },
+          {
+            "text": "v-mutate",
+            "href": "https://vuetifyjs.com/en/api/v-mutate-directive"
+          },
+          {
+            "text": "v-resize",
+            "href": "https://vuetifyjs.com/en/api/v-resize-directive"
+          },
+          {
+            "text": "v-ripple",
+            "href": "https://vuetifyjs.com/en/api/v-ripple-directive"
+          },
+          {
+            "text": "v-scroll",
+            "href": "https://vuetifyjs.com/en/api/v-scroll-directive"
+          },
+          {
+            "text": "v-tooltip",
+            "href": "https://vuetifyjs.com/en/api/v-tooltip-directive"
+          },
+          {
+            "text": "v-touch",
+            "href": "https://vuetifyjs.com/en/api/v-touch-directive"
+          },
+          {
+            "text": "VAlert",
+            "href": "https://vuetifyjs.com/en/api/v-alert"
+          },
+          {
+            "text": "VAlertTitle",
+            "href": "https://vuetifyjs.com/en/api/v-alert-title"
+          },
+          {
+            "text": "VApp",
+            "href": "https://vuetifyjs.com/en/api/v-app"
+          },
+          {
+            "text": "VAppBar",
+            "href": "https://vuetifyjs.com/en/api/v-app-bar"
+          },
+          {
+            "text": "VAppBarNavIcon",
+            "href": "https://vuetifyjs.com/en/api/v-app-bar-nav-icon"
+          },
+          {
+            "text": "VAppBarTitle",
+            "href": "https://vuetifyjs.com/en/api/v-app-bar-title"
+          },
+          {
+            "text": "VAutocomplete",
+            "href": "https://vuetifyjs.com/en/api/v-autocomplete"
+          },
+          {
+            "text": "VAvatar",
+            "href": "https://vuetifyjs.com/en/api/v-avatar"
+          },
+          {
+            "text": "VAvatarGroup",
+            "href": "https://vuetifyjs.com/en/api/v-avatar-group"
+          },
+          {
+            "text": "VBadge",
+            "href": "https://vuetifyjs.com/en/api/v-badge"
+          },
+          {
+            "text": "VBanner",
+            "href": "https://vuetifyjs.com/en/api/v-banner"
+          },
+          {
+            "text": "VBannerActions",
+            "href": "https://vuetifyjs.com/en/api/v-banner-actions"
+          },
+          {
+            "text": "VBannerText",
+            "href": "https://vuetifyjs.com/en/api/v-banner-text"
+          },
+          {
+            "text": "VBottomNavigation",
+            "href": "https://vuetifyjs.com/en/api/v-bottom-navigation"
+          },
+          {
+            "text": "VBottomSheet",
+            "href": "https://vuetifyjs.com/en/api/v-bottom-sheet"
+          },
+          {
+            "text": "VBreadcrumbs",
+            "href": "https://vuetifyjs.com/en/api/v-breadcrumbs"
+          },
+          {
+            "text": "VBreadcrumbsDivider",
+            "href": "https://vuetifyjs.com/en/api/v-breadcrumbs-divider"
+          },
+          {
+            "text": "VBreadcrumbsItem",
+            "href": "https://vuetifyjs.com/en/api/v-breadcrumbs-item"
+          },
+          {
+            "text": "VBtn",
+            "href": "https://vuetifyjs.com/en/api/v-btn"
+          },
+          {
+            "text": "VBtnGroup",
+            "href": "https://vuetifyjs.com/en/api/v-btn-group"
+          },
+          {
+            "text": "VBtnToggle",
+            "href": "https://vuetifyjs.com/en/api/v-btn-toggle"
+          },
+          {
+            "text": "VCalendar",
+            "href": "https://vuetifyjs.com/en/api/v-calendar"
+          },
+          {
+            "text": "VCard",
+            "href": "https://vuetifyjs.com/en/api/v-card"
+          },
+          {
+            "text": "VCardActions",
+            "href": "https://vuetifyjs.com/en/api/v-card-actions"
+          },
+          {
+            "text": "VCardItem",
+            "href": "https://vuetifyjs.com/en/api/v-card-item"
+          },
+          {
+            "text": "VCardSubtitle",
+            "href": "https://vuetifyjs.com/en/api/v-card-subtitle"
+          },
+          {
+            "text": "VCardText",
+            "href": "https://vuetifyjs.com/en/api/v-card-text"
+          },
+          {
+            "text": "VCardTitle",
+            "href": "https://vuetifyjs.com/en/api/v-card-title"
+          },
+          {
+            "text": "VCarousel",
+            "href": "https://vuetifyjs.com/en/api/v-carousel"
+          },
+          {
+            "text": "VCarouselItem",
+            "href": "https://vuetifyjs.com/en/api/v-carousel-item"
+          },
+          {
+            "text": "VCheckbox",
+            "href": "https://vuetifyjs.com/en/api/v-checkbox"
+          },
+          {
+            "text": "VCheckboxBtn",
+            "href": "https://vuetifyjs.com/en/api/v-checkbox-btn"
+          },
+          {
+            "text": "VChip",
+            "href": "https://vuetifyjs.com/en/api/v-chip"
+          },
+          {
+            "text": "VChipGroup",
+            "href": "https://vuetifyjs.com/en/api/v-chip-group"
+          },
+          {
+            "text": "VClassIcon",
+            "href": "https://vuetifyjs.com/en/api/v-class-icon"
+          },
+          {
+            "text": "VCode",
+            "href": "https://vuetifyjs.com/en/api/v-code"
+          },
+          {
+            "text": "VCol",
+            "href": "https://vuetifyjs.com/en/api/v-col"
+          },
+          {
+            "text": "VColorInput",
+            "href": "https://vuetifyjs.com/en/api/v-color-input"
+          },
+          {
+            "text": "VColorPicker",
+            "href": "https://vuetifyjs.com/en/api/v-color-picker"
+          },
+          {
+            "text": "VCombobox",
+            "href": "https://vuetifyjs.com/en/api/v-combobox"
+          },
+          {
+            "text": "VCommandPalette",
+            "href": "https://vuetifyjs.com/en/api/v-command-palette"
+          },
+          {
+            "text": "VCommandPaletteItem",
+            "href": "https://vuetifyjs.com/en/api/v-command-palette-item"
+          },
+          {
+            "text": "VComponentIcon",
+            "href": "https://vuetifyjs.com/en/api/v-component-icon"
+          },
+          {
+            "text": "VConfirmEdit",
+            "href": "https://vuetifyjs.com/en/api/v-confirm-edit"
+          },
+          {
+            "text": "VContainer",
+            "href": "https://vuetifyjs.com/en/api/v-container"
+          },
+          {
+            "text": "VCounter",
+            "href": "https://vuetifyjs.com/en/api/v-counter"
+          },
+          {
+            "text": "VDataIterator",
+            "href": "https://vuetifyjs.com/en/api/v-data-iterator"
+          },
+          {
+            "text": "VDataTable",
+            "href": "https://vuetifyjs.com/en/api/v-data-table"
+          },
+          {
+            "text": "VDataTableFooter",
+            "href": "https://vuetifyjs.com/en/api/v-data-table-footer"
+          },
+          {
+            "text": "VDataTableHeaders",
+            "href": "https://vuetifyjs.com/en/api/v-data-table-headers"
+          },
+          {
+            "text": "VDataTableRow",
+            "href": "https://vuetifyjs.com/en/api/v-data-table-row"
+          },
+          {
+            "text": "VDataTableRows",
+            "href": "https://vuetifyjs.com/en/api/v-data-table-rows"
+          },
+          {
+            "text": "VDataTableServer",
+            "href": "https://vuetifyjs.com/en/api/v-data-table-server"
+          },
+          {
+            "text": "VDataTableVirtual",
+            "href": "https://vuetifyjs.com/en/api/v-data-table-virtual"
+          },
+          {
+            "text": "VDateInput",
+            "href": "https://vuetifyjs.com/en/api/v-date-input"
+          },
+          {
+            "text": "VDatePicker",
+            "href": "https://vuetifyjs.com/en/api/v-date-picker"
+          },
+          {
+            "text": "VDatePickerControls",
+            "href": "https://vuetifyjs.com/en/api/v-date-picker-controls"
+          },
+          {
+            "text": "VDatePickerHeader",
+            "href": "https://vuetifyjs.com/en/api/v-date-picker-header"
+          },
+          {
+            "text": "VDatePickerMonth",
+            "href": "https://vuetifyjs.com/en/api/v-date-picker-month"
+          },
+          {
+            "text": "VDatePickerMonths",
+            "href": "https://vuetifyjs.com/en/api/v-date-picker-months"
+          },
+          {
+            "text": "VDatePickerYears",
+            "href": "https://vuetifyjs.com/en/api/v-date-picker-years"
+          },
+          {
+            "text": "VDefaultsProvider",
+            "href": "https://vuetifyjs.com/en/api/v-defaults-provider"
+          },
+          {
+            "text": "VDialog",
+            "href": "https://vuetifyjs.com/en/api/v-dialog"
+          },
+          {
+            "text": "VDialogBottomTransition",
+            "href": "https://vuetifyjs.com/en/api/v-dialog-bottom-transition"
+          },
+          {
+            "text": "VDialogTopTransition",
+            "href": "https://vuetifyjs.com/en/api/v-dialog-top-transition"
+          },
+          {
+            "text": "VDialogTransition",
+            "href": "https://vuetifyjs.com/en/api/v-dialog-transition"
+          },
+          {
+            "text": "VDivider",
+            "href": "https://vuetifyjs.com/en/api/v-divider"
+          },
+          {
+            "text": "VEmptyState",
+            "href": "https://vuetifyjs.com/en/api/v-empty-state"
+          },
+          {
+            "text": "VExpandBothTransition",
+            "href": "https://vuetifyjs.com/en/api/v-expand-both-transition"
+          },
+          {
+            "text": "VExpandTransition",
+            "href": "https://vuetifyjs.com/en/api/v-expand-transition"
+          },
+          {
+            "text": "VExpandXTransition",
+            "href": "https://vuetifyjs.com/en/api/v-expand-x-transition"
+          },
+          {
+            "text": "VExpansionPanel",
+            "href": "https://vuetifyjs.com/en/api/v-expansion-panel"
+          },
+          {
+            "text": "VExpansionPanels",
+            "href": "https://vuetifyjs.com/en/api/v-expansion-panels"
+          },
+          {
+            "text": "VExpansionPanelText",
+            "href": "https://vuetifyjs.com/en/api/v-expansion-panel-text"
+          },
+          {
+            "text": "VExpansionPanelTitle",
+            "href": "https://vuetifyjs.com/en/api/v-expansion-panel-title"
+          },
+          {
+            "text": "VFab",
+            "href": "https://vuetifyjs.com/en/api/v-fab"
+          },
+          {
+            "text": "VFabTransition",
+            "href": "https://vuetifyjs.com/en/api/v-fab-transition"
+          },
+          {
+            "text": "VFadeTransition",
+            "href": "https://vuetifyjs.com/en/api/v-fade-transition"
+          },
+          {
+            "text": "VField",
+            "href": "https://vuetifyjs.com/en/api/v-field"
+          },
+          {
+            "text": "VFieldLabel",
+            "href": "https://vuetifyjs.com/en/api/v-field-label"
+          },
+          {
+            "text": "VFileInput",
+            "href": "https://vuetifyjs.com/en/api/v-file-input"
+          },
+          {
+            "text": "VFileUpload",
+            "href": "https://vuetifyjs.com/en/api/v-file-upload"
+          },
+          {
+            "text": "VFileUploadDropzone",
+            "href": "https://vuetifyjs.com/en/api/v-file-upload-dropzone"
+          },
+          {
+            "text": "VFileUploadItem",
+            "href": "https://vuetifyjs.com/en/api/v-file-upload-item"
+          },
+          {
+            "text": "VFileUploadList",
+            "href": "https://vuetifyjs.com/en/api/v-file-upload-list"
+          },
+          {
+            "text": "VFooter",
+            "href": "https://vuetifyjs.com/en/api/v-footer"
+          },
+          {
+            "text": "VForm",
+            "href": "https://vuetifyjs.com/en/api/v-form"
+          },
+          {
+            "text": "VHotkey",
+            "href": "https://vuetifyjs.com/en/api/v-hotkey"
+          },
+          {
+            "text": "VHover",
+            "href": "https://vuetifyjs.com/en/api/v-hover"
+          },
+          {
+            "text": "VIcon",
+            "href": "https://vuetifyjs.com/en/api/v-icon"
+          },
+          {
+            "text": "VIconBtn",
+            "href": "https://vuetifyjs.com/en/api/v-icon-btn"
+          },
+          {
+            "text": "VImg",
+            "href": "https://vuetifyjs.com/en/api/v-img"
+          },
+          {
+            "text": "VInfiniteScroll",
+            "href": "https://vuetifyjs.com/en/api/v-infinite-scroll"
+          },
+          {
+            "text": "VInput",
+            "href": "https://vuetifyjs.com/en/api/v-input"
+          },
+          {
+            "text": "VItem",
+            "href": "https://vuetifyjs.com/en/api/v-item"
+          },
+          {
+            "text": "VItemGroup",
+            "href": "https://vuetifyjs.com/en/api/v-item-group"
+          },
+          {
+            "text": "VKbd",
+            "href": "https://vuetifyjs.com/en/api/v-kbd"
+          },
+          {
+            "text": "VLabel",
+            "href": "https://vuetifyjs.com/en/api/v-label"
+          },
+          {
+            "text": "VLayout",
+            "href": "https://vuetifyjs.com/en/api/v-layout"
+          },
+          {
+            "text": "VLayoutItem",
+            "href": "https://vuetifyjs.com/en/api/v-layout-item"
+          },
+          {
+            "text": "VLazy",
+            "href": "https://vuetifyjs.com/en/api/v-lazy"
+          },
+          {
+            "text": "VLigatureIcon",
+            "href": "https://vuetifyjs.com/en/api/v-ligature-icon"
+          },
+          {
+            "text": "VList",
+            "href": "https://vuetifyjs.com/en/api/v-list"
+          },
+          {
+            "text": "VListGroup",
+            "href": "https://vuetifyjs.com/en/api/v-list-group"
+          },
+          {
+            "text": "VListImg",
+            "href": "https://vuetifyjs.com/en/api/v-list-img"
+          },
+          {
+            "text": "VListItem",
+            "href": "https://vuetifyjs.com/en/api/v-list-item"
+          },
+          {
+            "text": "VListItemAction",
+            "href": "https://vuetifyjs.com/en/api/v-list-item-action"
+          },
+          {
+            "text": "VListItemMedia",
+            "href": "https://vuetifyjs.com/en/api/v-list-item-media"
+          },
+          {
+            "text": "VListItemSubtitle",
+            "href": "https://vuetifyjs.com/en/api/v-list-item-subtitle"
+          },
+          {
+            "text": "VListItemTitle",
+            "href": "https://vuetifyjs.com/en/api/v-list-item-title"
+          },
+          {
+            "text": "VListSubheader",
+            "href": "https://vuetifyjs.com/en/api/v-list-subheader"
+          },
+          {
+            "text": "VLocaleProvider",
+            "href": "https://vuetifyjs.com/en/api/v-locale-provider"
+          },
+          {
+            "text": "VMain",
+            "href": "https://vuetifyjs.com/en/api/v-main"
+          },
+          {
+            "text": "VMaskInput",
+            "href": "https://vuetifyjs.com/en/api/v-mask-input"
+          },
+          {
+            "text": "VMenu",
+            "href": "https://vuetifyjs.com/en/api/v-menu"
+          },
+          {
+            "text": "VMessages",
+            "href": "https://vuetifyjs.com/en/api/v-messages"
+          },
+          {
+            "text": "VNavigationDrawer",
+            "href": "https://vuetifyjs.com/en/api/v-navigation-drawer"
+          },
+          {
+            "text": "VNoSsr",
+            "href": "https://vuetifyjs.com/en/api/v-no-ssr"
+          },
+          {
+            "text": "VNumberInput",
+            "href": "https://vuetifyjs.com/en/api/v-number-input"
+          },
+          {
+            "text": "VOtpInput",
+            "href": "https://vuetifyjs.com/en/api/v-otp-input"
+          },
+          {
+            "text": "VOverlay",
+            "href": "https://vuetifyjs.com/en/api/v-overlay"
+          },
+          {
+            "text": "VPagination",
+            "href": "https://vuetifyjs.com/en/api/v-pagination"
+          },
+          {
+            "text": "VParallax",
+            "href": "https://vuetifyjs.com/en/api/v-parallax"
+          },
+          {
+            "text": "VPicker",
+            "href": "https://vuetifyjs.com/en/api/v-picker"
+          },
+          {
+            "text": "VPickerTitle",
+            "href": "https://vuetifyjs.com/en/api/v-picker-title"
+          },
+          {
+            "text": "VPie",
+            "href": "https://vuetifyjs.com/en/api/v-pie"
+          },
+          {
+            "text": "VPieSegment",
+            "href": "https://vuetifyjs.com/en/api/v-pie-segment"
+          },
+          {
+            "text": "VPieTooltip",
+            "href": "https://vuetifyjs.com/en/api/v-pie-tooltip"
+          },
+          {
+            "text": "VProgress",
+            "href": "https://vuetifyjs.com/en/api/v-progress"
+          },
+          {
+            "text": "VProgressCircular",
+            "href": "https://vuetifyjs.com/en/api/v-progress-circular"
+          },
+          {
+            "text": "VProgressLinear",
+            "href": "https://vuetifyjs.com/en/api/v-progress-linear"
+          },
+          {
+            "text": "VPullToRefresh",
+            "href": "https://vuetifyjs.com/en/api/v-pull-to-refresh"
+          },
+          {
+            "text": "VRadio",
+            "href": "https://vuetifyjs.com/en/api/v-radio"
+          },
+          {
+            "text": "VRadioGroup",
+            "href": "https://vuetifyjs.com/en/api/v-radio-group"
+          },
+          {
+            "text": "VRangeSlider",
+            "href": "https://vuetifyjs.com/en/api/v-range-slider"
+          },
+          {
+            "text": "VRating",
+            "href": "https://vuetifyjs.com/en/api/v-rating"
+          },
+          {
+            "text": "VResponsive",
+            "href": "https://vuetifyjs.com/en/api/v-responsive"
+          },
+          {
+            "text": "VRow",
+            "href": "https://vuetifyjs.com/en/api/v-row"
+          },
+          {
+            "text": "VScaleTransition",
+            "href": "https://vuetifyjs.com/en/api/v-scale-transition"
+          },
+          {
+            "text": "VScrollXReverseTransition",
+            "href": "https://vuetifyjs.com/en/api/v-scroll-x-reverse-transition"
+          },
+          {
+            "text": "VScrollXTransition",
+            "href": "https://vuetifyjs.com/en/api/v-scroll-x-transition"
+          },
+          {
+            "text": "VScrollYReverseTransition",
+            "href": "https://vuetifyjs.com/en/api/v-scroll-y-reverse-transition"
+          },
+          {
+            "text": "VScrollYTransition",
+            "href": "https://vuetifyjs.com/en/api/v-scroll-y-transition"
+          },
+          {
+            "text": "VSelect",
+            "href": "https://vuetifyjs.com/en/api/v-select"
+          },
+          {
+            "text": "VSelectionControl",
+            "href": "https://vuetifyjs.com/en/api/v-selection-control"
+          },
+          {
+            "text": "VSelectionControlGroup",
+            "href": "https://vuetifyjs.com/en/api/v-selection-control-group"
+          },
+          {
+            "text": "VSheet",
+            "href": "https://vuetifyjs.com/en/api/v-sheet"
+          },
+          {
+            "text": "VSkeletonLoader",
+            "href": "https://vuetifyjs.com/en/api/v-skeleton-loader"
+          },
+          {
+            "text": "VSlideGroup",
+            "href": "https://vuetifyjs.com/en/api/v-slide-group"
+          },
+          {
+            "text": "VSlideGroupItem",
+            "href": "https://vuetifyjs.com/en/api/v-slide-group-item"
+          },
+          {
+            "text": "VSlider",
+            "href": "https://vuetifyjs.com/en/api/v-slider"
+          },
+          {
+            "text": "VSlideXReverseTransition",
+            "href": "https://vuetifyjs.com/en/api/v-slide-x-reverse-transition"
+          },
+          {
+            "text": "VSlideXTransition",
+            "href": "https://vuetifyjs.com/en/api/v-slide-x-transition"
+          },
+          {
+            "text": "VSlideYReverseTransition",
+            "href": "https://vuetifyjs.com/en/api/v-slide-y-reverse-transition"
+          },
+          {
+            "text": "VSlideYTransition",
+            "href": "https://vuetifyjs.com/en/api/v-slide-y-transition"
+          },
+          {
+            "text": "VSnackbar",
+            "href": "https://vuetifyjs.com/en/api/v-snackbar"
+          },
+          {
+            "text": "VSnackbarQueue",
+            "href": "https://vuetifyjs.com/en/api/v-snackbar-queue"
+          },
+          {
+            "text": "VSpacer",
+            "href": "https://vuetifyjs.com/en/api/v-spacer"
+          },
+          {
+            "text": "VSparkline",
+            "href": "https://vuetifyjs.com/en/api/v-sparkline"
+          },
+          {
+            "text": "VSpeedDial",
+            "href": "https://vuetifyjs.com/en/api/v-speed-dial"
+          },
+          {
+            "text": "VStepper",
+            "href": "https://vuetifyjs.com/en/api/v-stepper"
+          },
+          {
+            "text": "VStepperActions",
+            "href": "https://vuetifyjs.com/en/api/v-stepper-actions"
+          },
+          {
+            "text": "VStepperHeader",
+            "href": "https://vuetifyjs.com/en/api/v-stepper-header"
+          },
+          {
+            "text": "VStepperItem",
+            "href": "https://vuetifyjs.com/en/api/v-stepper-item"
+          },
+          {
+            "text": "VStepperVertical",
+            "href": "https://vuetifyjs.com/en/api/v-stepper-vertical"
+          },
+          {
+            "text": "VStepperVerticalActions",
+            "href": "https://vuetifyjs.com/en/api/v-stepper-vertical-actions"
+          },
+          {
+            "text": "VStepperVerticalItem",
+            "href": "https://vuetifyjs.com/en/api/v-stepper-vertical-item"
+          },
+          {
+            "text": "VStepperWindow",
+            "href": "https://vuetifyjs.com/en/api/v-stepper-window"
+          },
+          {
+            "text": "VStepperWindowItem",
+            "href": "https://vuetifyjs.com/en/api/v-stepper-window-item"
+          },
+          {
+            "text": "VSvgIcon",
+            "href": "https://vuetifyjs.com/en/api/v-svg-icon"
+          },
+          {
+            "text": "VSwitch",
+            "href": "https://vuetifyjs.com/en/api/v-switch"
+          },
+          {
+            "text": "VSystemBar",
+            "href": "https://vuetifyjs.com/en/api/v-system-bar"
+          },
+          {
+            "text": "VTab",
+            "href": "https://vuetifyjs.com/en/api/v-tab"
+          },
+          {
+            "text": "VTable",
+            "href": "https://vuetifyjs.com/en/api/v-table"
+          },
+          {
+            "text": "VTabs",
+            "href": "https://vuetifyjs.com/en/api/v-tabs"
+          },
+          {
+            "text": "VTabsWindow",
+            "href": "https://vuetifyjs.com/en/api/v-tabs-window"
+          },
+          {
+            "text": "VTabsWindowItem",
+            "href": "https://vuetifyjs.com/en/api/v-tabs-window-item"
+          },
+          {
+            "text": "VTextarea",
+            "href": "https://vuetifyjs.com/en/api/v-textarea"
+          },
+          {
+            "text": "VTextField",
+            "href": "https://vuetifyjs.com/en/api/v-text-field"
+          },
+          {
+            "text": "VThemeProvider",
+            "href": "https://vuetifyjs.com/en/api/v-theme-provider"
+          },
+          {
+            "text": "VTimeline",
+            "href": "https://vuetifyjs.com/en/api/v-timeline"
+          },
+          {
+            "text": "VTimelineItem",
+            "href": "https://vuetifyjs.com/en/api/v-timeline-item"
+          },
+          {
+            "text": "VTimePicker",
+            "href": "https://vuetifyjs.com/en/api/v-time-picker"
+          },
+          {
+            "text": "VTimePickerClock",
+            "href": "https://vuetifyjs.com/en/api/v-time-picker-clock"
+          },
+          {
+            "text": "VTimePickerControls",
+            "href": "https://vuetifyjs.com/en/api/v-time-picker-controls"
+          },
+          {
+            "text": "VToolbar",
+            "href": "https://vuetifyjs.com/en/api/v-toolbar"
+          },
+          {
+            "text": "VToolbarItems",
+            "href": "https://vuetifyjs.com/en/api/v-toolbar-items"
+          },
+          {
+            "text": "VToolbarTitle",
+            "href": "https://vuetifyjs.com/en/api/v-toolbar-title"
+          },
+          {
+            "text": "VTooltip",
+            "href": "https://vuetifyjs.com/en/api/v-tooltip"
+          },
+          {
+            "text": "VTreeview",
+            "href": "https://vuetifyjs.com/en/api/v-treeview"
+          },
+          {
+            "text": "VTreeviewGroup",
+            "href": "https://vuetifyjs.com/en/api/v-treeview-group"
+          },
+          {
+            "text": "VTreeviewItem",
+            "href": "https://vuetifyjs.com/en/api/v-treeview-item"
+          },
+          {
+            "text": "VValidation",
+            "href": "https://vuetifyjs.com/en/api/v-validation"
+          },
+          {
+            "text": "VVideo",
+            "href": "https://vuetifyjs.com/en/api/v-video"
+          },
+          {
+            "text": "VVideoControls",
+            "href": "https://vuetifyjs.com/en/api/v-video-controls"
+          },
+          {
+            "text": "VVideoVolume",
+            "href": "https://vuetifyjs.com/en/api/v-video-volume"
+          },
+          {
+            "text": "VVirtualScroll",
+            "href": "https://vuetifyjs.com/en/api/v-virtual-scroll"
+          },
+          {
+            "text": "VWindow",
+            "href": "https://vuetifyjs.com/en/api/v-window"
+          },
+          {
+            "text": "VWindowItem",
+            "href": "https://vuetifyjs.com/en/api/v-window-item"
+          }
+        ]
+      },
+      {
+        "section": "Directives",
+        "links": [
+          {
+            "text": "Click outside",
+            "href": "https://vuetifyjs.com/en/directives/click-outside/"
+          },
+          {
+            "text": "Intersection observer",
+            "href": "https://vuetifyjs.com/en/directives/intersect/"
+          },
+          {
+            "text": "Mutation observer",
+            "href": "https://vuetifyjs.com/en/directives/mutate/"
+          },
+          {
+            "text": "Resize",
+            "href": "https://vuetifyjs.com/en/directives/resize/"
+          },
+          {
+            "text": "Ripple",
+            "href": "https://vuetifyjs.com/en/directives/ripple/"
+          },
+          {
+            "text": "Scroll",
+            "href": "https://vuetifyjs.com/en/directives/scroll/"
+          },
+          {
+            "text": "Tooltip",
+            "href": "https://vuetifyjs.com/en/directives/tooltip/"
+          },
+          {
+            "text": "Touch",
+            "href": "https://vuetifyjs.com/en/directives/touch/"
+          }
+        ]
+      },
+      {
+        "section": "Labs",
+        "links": [
+          {
+            "text": "Introduction",
+            "href": "https://vuetifyjs.com/en/labs/introduction/"
+          },
+          {
+            "text": "Avatar groups",
+            "href": "https://vuetifyjs.com/en/components/avatar-groups/"
+          },
+          {
+            "text": "Color inputs",
+            "href": "https://vuetifyjs.com/en/components/color-inputs/"
+          },
+          {
+            "text": "Command Palettes",
+            "href": "https://vuetifyjs.com/en/components/command-palettes/"
+          },
+          {
+            "text": "Date inputs",
+            "href": "https://vuetifyjs.com/en/components/date-inputs/"
+          },
+          {
+            "text": "File upload",
+            "href": "https://vuetifyjs.com/en/components/file-upload/"
+          },
+          {
+            "text": "Icon buttons",
+            "href": "https://vuetifyjs.com/en/components/icon-buttons/"
+          },
+          {
+            "text": "Pie charts",
+            "href": "https://vuetifyjs.com/en/components/pie-charts/"
+          },
+          {
+            "text": "Progress",
+            "href": "https://vuetifyjs.com/en/components/progress/"
+          },
+          {
+            "text": "Pull To Refresh",
+            "href": "https://vuetifyjs.com/en/components/pull-to-refresh/"
+          },
+          {
+            "text": "Steppers Vertical",
+            "href": "https://vuetifyjs.com/en/components/vertical-steppers/"
+          },
+          {
+            "text": "Mask inputs",
+            "href": "https://vuetifyjs.com/en/components/mask-inputs/"
+          },
+          {
+            "text": "Videos",
+            "href": "https://vuetifyjs.com/en/components/videos/"
+          },
+          {
+            "text": "Validation rules",
+            "href": "https://vuetifyjs.com/en/features/rules/"
+          }
+        ]
+      },
+      {
+        "section": "Resources",
+        "links": [
+          {
+            "text": "Brand Kit",
+            "href": "https://vuetifyjs.com/en/resources/brand-kit/"
+          },
+          {
+            "text": "Jobs",
+            "href": "https://vuetifyjs.com/en/resources/jobs-for-vue/"
+          },
+          {
+            "text": "Made with Vuetify",
+            "href": "https://vuetifyjs.com/en/resources/made-with-vuetify/"
+          },
+          {
+            "text": "Themes",
+            "href": "https://vuetifyjs.com/en/resources/themes/"
+          },
+          {
+            "text": "Search Engine",
+            "href": "https://vuetifyjs.com/en/resources/search-engine/"
+          },
+          {
+            "text": "UI Kits",
+            "href": "https://vuetifyjs.com/en/resources/ui-kits/"
+          }
+        ]
+      },
+      {
+        "section": "About",
+        "links": [
+          {
+            "text": "Code of conduct",
+            "href": "https://vuetifyjs.com/en/about/code-of-conduct/"
+          },
+          {
+            "text": "Licensing",
+            "href": "https://vuetifyjs.com/en/about/licensing/"
+          },
+          {
+            "text": "Meet the team",
+            "href": "https://vuetifyjs.com/en/about/meet-the-team/"
+          },
+          {
+            "text": "Security disclosure",
+            "href": "https://vuetifyjs.com/en/about/security-disclosure/"
+          },
+          {
+            "text": "bf53f9e",
+            "href": "https://github.com/vuetifyjs/vuetify/commit/bf53f9e1021a4e7c9275cc21f1985ae754fb0635"
+          },
+          {
+            "text": "4.0.5",
+            "href": "https://vuetifyjs.com/en/getting-started/release-notes/?version=v4.0.5"
+          }
+        ]
+      }
+    ],
+    "Count": 11
+  }
+}
