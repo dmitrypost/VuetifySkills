@@ -67,14 +67,7 @@ Creates a `vuetify4-skills` vector store, uploads every page under [skills/vueti
 
 ## Contributing
 
-Issues and pull requests are welcome. Before opening a PR, run:
-
-```sh
-npm run typecheck
-npm run generate
-```
-
-Please keep changes scoped to the generator, installers, or documentation — the contents under [skills/vuetify4/pages/](skills/vuetify4/pages/) are produced by the generator and should not be hand-edited.
+Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for project layout, the PR checklist, and ground rules (in short: run `npm run typecheck` and `npm run generate`, and don't hand-edit files under [skills/vuetify4/pages/](skills/vuetify4/pages/)).
 
 ## License
 
