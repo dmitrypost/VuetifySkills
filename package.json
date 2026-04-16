@@ -4,7 +4,10 @@
   "type": "module",
   "scripts": {
     "generate": "tsx ./scripts/generate-vuetify4-skills.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "install:claude": "tsx ./scripts/install/install-claude.ts",
+    "install:copilot": "tsx ./scripts/install/install-copilot.ts",
+    "install:openai": "tsx ./scripts/install/install-openai.ts"
   },
   "dependencies": {
     "cheerio": "^1.1.2"
