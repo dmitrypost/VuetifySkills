@@ -64,3 +64,20 @@ npm run install:openai -- ./my-app  # local  -> ./my-app/.vuetify4-skills-openai
 ```
 
 Creates a `vuetify4-skills` vector store, uploads every page under [skills/vuetify4/pages/](skills/vuetify4/pages/), and writes the store ID + system prompt to the metadata file shown above.
+
+## Contributing
+
+Issues and pull requests are welcome. Before opening a PR, run:
+
+```sh
+npm run typecheck
+npm run generate
+```
+
+Please keep changes scoped to the generator, installers, or documentation — the contents under [skills/vuetify4/pages/](skills/vuetify4/pages/) are produced by the generator and should not be hand-edited.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+The generated corpus under [skills/vuetify4/](skills/vuetify4/) is derived from the official [Vuetify documentation](https://vuetifyjs.com/), which is published under the [MIT License](https://github.com/vuetifyjs/vuetify/blob/master/LICENSE.md). Vuetify is a trademark of its respective owners; this project is not affiliated with or endorsed by the Vuetify team.

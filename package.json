@@ -1,7 +1,23 @@
 {
   "name": "vuetify4-skills",
+  "version": "0.1.0",
   "private": true,
+  "description": "Generated Vuetify 4 documentation corpus and installers for use as an agent skill (Claude Code, GitHub Copilot, OpenAI Responses).",
+  "license": "MIT",
+  "author": "Dmitry Post",
   "type": "module",
+  "keywords": [
+    "vuetify",
+    "vuetify4",
+    "vue",
+    "agent",
+    "skill",
+    "claude-code",
+    "copilot",
+    "openai",
+    "documentation",
+    "rag"
+  ],
   "scripts": {
     "generate": "tsx ./scripts/generate-vuetify4-skills.ts",
     "typecheck": "tsc --noEmit",
