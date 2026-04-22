@@ -20,6 +20,7 @@ Use this page when you need the Vuetify 4 API contract for VAlertTitle, includin
 ## API Enrichment
 
 Kind: component
+Locale descriptions: https://github.com/vuetifyjs/vuetify/blob/master/packages/api-generator/src/locale/en/VAlertTitle.json
 Source file: https://github.com/vuetifyjs/vuetify/blob/master/packages/vuetify/src/components/VAlert/VAlertTitle.ts
 
 ## Related Pages

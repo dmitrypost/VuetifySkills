@@ -1,8 +1,6 @@
 import path from 'node:path';
+import { SKILL_NAME } from '../vuetify4/config.ts';
 import { copyCorpus, ensureSkillsReady, homeDir, logInstalled, parseScope, readFrameworkFile, writeFile } from './common.ts';
-
-const SKILL_NAME = 'vuetify4';
-const SKILL_DESCRIPTION = 'Vuetify 4 documentation corpus (release 4.0.5). Use for Vuetify 4-only component, API, directive, and composable questions; prefer API pages for contracts and guide pages for usage examples.';
 
 async function main(): Promise<void> {
   await ensureSkillsReady();
@@ -13,11 +11,8 @@ async function main(): Promise<void> {
 
   await copyCorpus(skillRoot);
 
-  const guide = await readFrameworkFile(path.join('claude', 'CLAUDE.md'));
-  const skillMd = `---\nname: ${SKILL_NAME}\ndescription: ${SKILL_DESCRIPTION}\n---\n\n${guide}`;
-  await writeFile(path.join(skillRoot, 'SKILL.md'), skillMd);
-
   if (scope.kind === 'local') {
+    const guide = await readFrameworkFile(path.join('claude', 'CLAUDE.md'));
     await writeFile(path.join(scope.root, 'CLAUDE.md'), guide);
   }
 

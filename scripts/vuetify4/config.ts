@@ -9,6 +9,11 @@ export const REPO_BLOB_ROOT = 'https://github.com/vuetifyjs/vuetify/blob/master'
 export const USER_AGENT = 'Vuetify4SkillsGenerator/1.0';
 export const COMPONENT_ROOT_SUFFIXES: readonly string[] = ['WindowItem', 'Window', 'VerticalActions', 'VerticalItem', 'Actions', 'Action', 'Subtitle', 'Title', 'Text', 'Group', 'Item', 'Header', 'Footer', 'Rows', 'Row', 'Controls', 'Control', 'Months', 'Month', 'Years', 'Year', 'Clock', 'Media', 'Img', 'Divider'];
 
+export const SKILL_NAME = 'vuetify4';
+export function buildSkillDescription(version: string): string {
+  return `Vuetify ${version.split('.')[0]} documentation corpus (release ${version}). Use for Vuetify ${version.split('.')[0]}-only component, API, directive, and composable questions; prefer API pages for contracts and guide pages for usage examples.`;
+}
+
 export function getWorkspacePaths(metaUrl: string): WorkspacePaths {
   const __dirname = path.dirname(fileURLToPath(metaUrl));
   const workspaceRoot = path.resolve(__dirname, '..');

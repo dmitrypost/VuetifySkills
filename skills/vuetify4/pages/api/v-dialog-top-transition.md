@@ -20,6 +20,7 @@ Use this page when you need the Vuetify 4 API contract for VDialogTopTransition,
 ## API Enrichment
 
 Kind: component
+Locale descriptions: https://github.com/vuetifyjs/vuetify/blob/master/packages/api-generator/src/locale/en/VDialogTopTransition.json
 
 ## Related Pages
 

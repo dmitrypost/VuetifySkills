@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { SKILL_NAME, buildSkillDescription } from '../config.ts';
 import { slugify, toPosix } from '../core-utils.ts';
 import type { NavData, NavSection, PageRecord, WorkspacePaths } from '../types.ts';
 
@@ -123,11 +124,13 @@ export async function writeFrameworkExports(navData: NavData, pageResults: reado
   })).join('\n') + '\n';
 
   const guides = buildAgentGuides(navData, pageResults);
+  const skillManifest = `---\nname: ${SKILL_NAME}\ndescription: ${buildSkillDescription(navData.version)}\n---\n\n${guides.claude}`;
 
   await fs.writeFile(path.join(openAiDir, 'documents.jsonl'), documentsJsonl, 'utf8');
   await fs.writeFile(path.join(openAiDir, 'system-prompt.md'), guides.openai, 'utf8');
   await fs.writeFile(path.join(copilotDir, 'AGENTS.md'), guides.copilot, 'utf8');
   await fs.writeFile(path.join(claudeDir, 'CLAUDE.md'), guides.claude, 'utf8');
+  await fs.writeFile(path.join(paths.outputRoot, 'SKILL.md'), skillManifest, 'utf8');
   await fs.writeFile(path.join(paths.workspaceRoot, 'AGENTS.md'), guides.copilot, 'utf8');
   await fs.writeFile(path.join(paths.workspaceRoot, 'CLAUDE.md'), guides.claude, 'utf8');
 }

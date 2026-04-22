@@ -20,6 +20,7 @@ Use this page when you need the Vuetify 4 API contract for VSlideGroupItem, incl
 ## API Enrichment
 
 Kind: component
+Locale descriptions: https://github.com/vuetifyjs/vuetify/blob/master/packages/api-generator/src/locale/en/VSlideGroupItem.json
 Source file: https://github.com/vuetifyjs/vuetify/blob/master/packages/vuetify/src/components/VSlideGroup/VSlideGroupItem.tsx
 
 ## Source-derived Keys

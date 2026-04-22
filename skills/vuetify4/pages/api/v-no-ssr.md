@@ -20,6 +20,7 @@ Use this page when you need the Vuetify 4 API contract for VNoSsr, including pro
 ## API Enrichment
 
 Kind: component
+Locale descriptions: https://github.com/vuetifyjs/vuetify/blob/master/packages/api-generator/src/locale/en/VNoSsr.json
 Source file: https://github.com/vuetifyjs/vuetify/blob/master/packages/vuetify/src/components/VNoSsr/VNoSsr.tsx
 
 ## Related Pages

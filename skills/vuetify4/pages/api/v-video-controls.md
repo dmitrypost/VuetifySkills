@@ -74,7 +74,7 @@ Source file: https://github.com/vuetifyjs/vuetify/blob/master/packages/vuetify/s
   hidePlay: Boolean,
   hideVolume: Boolean,
   hideFullscreen: Boolean,
-  hideProgressBar: { type: Boolean, default: true },
+  hideProgressBar: Boolean,
   fullscreen: Boolean,
   floating: Boolean,
   splitTime: Boolean,

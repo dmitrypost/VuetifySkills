@@ -20,6 +20,7 @@ Use this page when you need the Vuetify 4 API contract for VListItemAction, incl
 ## API Enrichment
 
 Kind: component
+Locale descriptions: https://github.com/vuetifyjs/vuetify/blob/master/packages/api-generator/src/locale/en/VListItemAction.json
 Source file: https://github.com/vuetifyjs/vuetify/blob/master/packages/vuetify/src/components/VList/VListItemAction.tsx
 
 ## Source-derived Keys
