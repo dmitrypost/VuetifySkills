@@ -11,6 +11,9 @@ async function main(): Promise<void> {
 
   await copyCorpus(skillRoot);
 
+  const skillManifest = await readFrameworkFile(path.join('claude', 'SKILL.md'));
+  await writeFile(path.join(skillRoot, 'SKILL.md'), skillManifest);
+
   if (scope.kind === 'local') {
     const guide = await readFrameworkFile(path.join('claude', 'CLAUDE.md'));
     await writeFile(path.join(scope.root, 'CLAUDE.md'), guide);

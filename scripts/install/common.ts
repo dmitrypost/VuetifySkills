@@ -39,6 +39,7 @@ export async function copyCorpus(destination: string): Promise<void> {
       const relative = path.relative(skillsRoot, source);
       if (relative === 'frameworks' || relative.startsWith(`frameworks${path.sep}`)) return false;
       if (relative === 'failures.json') return false;
+      if (relative === 'SKILL.md') return false;
       return true;
     },
   });

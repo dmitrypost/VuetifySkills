@@ -130,6 +130,7 @@ export async function writeFrameworkExports(navData: NavData, pageResults: reado
   await fs.writeFile(path.join(openAiDir, 'system-prompt.md'), guides.openai, 'utf8');
   await fs.writeFile(path.join(copilotDir, 'AGENTS.md'), guides.copilot, 'utf8');
   await fs.writeFile(path.join(claudeDir, 'CLAUDE.md'), guides.claude, 'utf8');
+  await fs.writeFile(path.join(claudeDir, 'SKILL.md'), skillManifest, 'utf8');
   await fs.writeFile(path.join(paths.outputRoot, 'SKILL.md'), skillManifest, 'utf8');
   await fs.writeFile(path.join(paths.workspaceRoot, 'AGENTS.md'), guides.copilot, 'utf8');
   await fs.writeFile(path.join(paths.workspaceRoot, 'CLAUDE.md'), guides.claude, 'utf8');
