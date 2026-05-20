@@ -4,6 +4,7 @@ export type WorkspacePaths = {
   outputRoot: string;
   pagesRoot: string;
   frameworksRoot: string;
+  claudeSkillRoot: string;
 };
 
 export type NavLink = {

@@ -25,5 +25,6 @@ export function getWorkspacePaths(metaUrl: string): WorkspacePaths {
     outputRoot,
     pagesRoot: path.join(outputRoot, 'pages'),
     frameworksRoot: path.join(outputRoot, 'frameworks'),
+    claudeSkillRoot: path.join(workspaceRoot, '.claude', 'skills', SKILL_NAME),
   };
 }

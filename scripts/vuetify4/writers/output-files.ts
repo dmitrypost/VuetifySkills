@@ -134,6 +134,52 @@ export async function writeFrameworkExports(navData: NavData, pageResults: reado
   await fs.writeFile(path.join(paths.outputRoot, 'SKILL.md'), skillManifest, 'utf8');
   await fs.writeFile(path.join(paths.workspaceRoot, 'AGENTS.md'), guides.copilot, 'utf8');
   await fs.writeFile(path.join(paths.workspaceRoot, 'CLAUDE.md'), guides.claude, 'utf8');
+
+  await writeClaudeSkillPointer(navData, pageResults, paths);
+}
+
+// Writes the discoverable Claude Code skill entry at .claude/skills/vuetify4/SKILL.md.
+// The corpus itself stays under skills/vuetify4 (shared with the Copilot/OpenAI
+// exports); this pointer references it via a path relative to the skill directory
+// so the files are not duplicated inside .claude.
+async function writeClaudeSkillPointer(navData: NavData, pageResults: readonly PageRecord[], paths: WorkspacePaths): Promise<void> {
+  const navSections = resolveNavSections(navData);
+  const relPrefix = toPosix(path.relative(paths.claudeSkillRoot, paths.outputRoot));
+  const body = [
+    '# Vuetify 4 Agent Guide',
+    '',
+    `Pinned release: ${navData.version}`,
+    `Pinned docs build: ${navData.docsBuild}`,
+    `Total pages: ${pageResults.length}`,
+    '',
+    'Use this corpus only for Vuetify 4 questions.',
+    'Prefer guide and component pages for usage patterns and implementation examples.',
+    'Prefer API pages for props, events, slots, directives, composables, and source links.',
+    'If guide prose and API enrichment differ, prefer the API-enrichment section and linked source file.',
+    '',
+    '## Section Order',
+    '',
+    ...navSections.map(section => `- ${section.section}`),
+    '',
+    '## Primary Files',
+    '',
+    `The corpus lives outside this skill directory (shared with the Copilot and OpenAI exports). Read it from these paths, relative to this SKILL.md:`,
+    '',
+    `- ${relPrefix}/manifest.json`,
+    `- ${relPrefix}/README.md`,
+    `- ${relPrefix}/pages/**`,
+    '',
+    '## Response Rules',
+    '',
+    '1. Answer with Vuetify 4-only guidance.',
+    '2. Use guide pages for examples and API pages for contract details.',
+    '3. Mention the generated page path and linked source file when the answer depends on source behavior.',
+    '',
+  ].join('\n');
+
+  const skillManifest = `---\nname: ${SKILL_NAME}\ndescription: ${buildSkillDescription(navData.version)}\n---\n\n${body}`;
+  await fs.mkdir(paths.claudeSkillRoot, { recursive: true });
+  await fs.writeFile(path.join(paths.claudeSkillRoot, 'SKILL.md'), skillManifest, 'utf8');
 }
 
 function buildAgentGuides(navData: NavData, pageResults: readonly PageRecord[]): AgentGuides {
