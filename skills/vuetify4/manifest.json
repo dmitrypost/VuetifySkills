@@ -2,7 +2,7 @@
   "version": "4.0.5",
   "docsBuild": "bf53f9e",
   "capturedFrom": "https://vuetifyjs.com/en/getting-started/installation/",
-  "generatedAt": "2026-04-22T22:56:51.860Z",
+  "generatedAt": "2026-05-20T18:32:23.770Z",
   "totalPages": 394,
   "sections": [
     {
@@ -112,7 +112,7 @@
       "sourceType": "markdown",
       "summary": "The upcoming planned features and new functionality coming to Vuetify. New components, new directives, and much much more!",
       "headings": [
-        "2025/2026 Roadmap",
+        "2026 Roadmap",
         "Versions",
         "New form components and features",
         "Other components and features",
@@ -306,10 +306,11 @@
         "Styles",
         "Style entry points",
         "CSS reset",
+        "Applying without a build step",
         "Layers",
-        "Typography",
+        "Typography {codemod-available}",
         "Breakpoints",
-        "Elevation",
+        "Elevation {codemod-available}",
         "Themes",
         "Components",
         "VBtn display",
@@ -317,8 +318,7 @@
         "VBadge",
         "VContainer",
         "Max widths",
-        "VCounter",
-        "VDatePicker"
+        "VCounter"
       ],
       "apiKind": null,
       "apiSectionCounts": null,
@@ -8401,7 +8401,6 @@
       "summary": "Vuetify offers numerous pre-build starter and premium themes. Kickstart your next application today, no design skills needed.",
       "headings": [
         "Vuetify",
-        "UI Lib",
         "WrapPixel",
         "Theme Selection",
         "CodedThemes"

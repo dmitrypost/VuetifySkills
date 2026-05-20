@@ -24,7 +24,6 @@ Vuetify offers numerous pre-build starter and premium themes. Kickstart your nex
 ## Key Headings
 
 - Vuetify
-- UI Lib
 - WrapPixel
 - Theme Selection
 - CodedThemes
@@ -41,11 +40,11 @@ The following themes are created and maintained by Vuetify. They are available f
 
 ---
 
-UI Lib is a collection of free and premium themes built on top of Vuetify.
+Create web apps and products using WrapPixel's product ready Vue Admin Templates, UI Kits, Themes, Templates and Dashboards.
 
 ---
 
-Create web apps and products using WrapPixel's product ready Vue Admin Templates, UI Kits, Themes, Templates and Dashboards.
+Theme Selection offers an array of visually appealing, user-friendly UI kits and themes. Catering to a variety of platforms, they deliver efficient design solutions for a streamlined digital experience.
 
 ## Related Pages
 

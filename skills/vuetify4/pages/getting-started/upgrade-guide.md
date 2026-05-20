@@ -28,10 +28,11 @@ Detailed instruction on how to upgrade Vuetify to 4.0
 - Styles
 - Style entry points
 - CSS reset
+- Applying without a build step
 - Layers
-- Typography
+- Typography {codemod-available}
 - Breakpoints
-- Elevation
+- Elevation {codemod-available}
 - Themes
 - Components
 - VBtn display
@@ -40,7 +41,6 @@ Detailed instruction on how to upgrade Vuetify to 4.0
 - VContainer
 - Max widths
 - VCounter
-- VDatePicker
 
 ## Extracted Guidance
 
@@ -125,6 +125,17 @@ Using the vuetify-mcp server, scan this project for Vuetify 3 to 4 breaking chan
 }
 ```
 
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@4/dist/vuetify.css">
+
+<style>
+  @layer vuetify-core.reset {
+    ul, ol, figure, details, summary { padding: 0; margin: 0; }
+    h1, h2, h3, h4, h5, h6, p { margin: 0; }
+  }
+</style>
+```
+
 ```diff
 - @layer base, vuetify, overrides;
 + @layer base, vuetify-core, vuetify-components, vuetify-overrides, vuetify-utilities, vuetify-final, overrides;
@@ -145,17 +156,6 @@ export default createVuetify({
     },
   },
 })
-```
-
-```scss { resource="src/styles/_settings.scss" }
-@use 'vuetify/settings' with (
-  $grid-breakpoints: (
-    'md': 960px,
-    'lg': 1280px,
-    'xl': 1920px,
-    'xxl': 2560px,
-  ),
-);
 ```
 
 ## Related Pages
